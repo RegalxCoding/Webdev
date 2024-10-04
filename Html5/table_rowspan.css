@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    
+}
+table{
+    width: 700px;
+    height: 300px;
+
+}
+caption{
+    color: red;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.yellow{
+    background:rgb(248, 248, 153);
+}
+.purple{
+    background: rgb(119, 119, 248)
+}
+.green{
+    background: rgb(147, 245, 147);
+}
