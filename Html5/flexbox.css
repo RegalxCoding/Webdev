@@ -1,0 +1,32 @@
+.container{
+    background-color:rgb(151, 241, 14);
+    /* border-radius: 20px; */
+    width:500px;
+    height: 300px;
+    display:flex;
+    /* flex-direction: column; */
+     justify-content: space-around;
+     align-items:center;
+}
+.item1{
+    border: 20px darkblue;
+    background-color: rgb(241, 87, 87);
+    /* margin-bottom: 220px; */
+    padding: 20px;
+    
+
+}
+.item2{
+    border: 20px darkblue;
+    background-color: rgb(146, 92, 235);
+    /* margin-bottom: 220px; */
+    padding: 20px;
+    
+}
+.item3{
+    border: 20px rgb(52, 134, 211);
+    background-color: rgb(233, 221, 55);
+    /* margin-bottom: 220px; */
+    padding: 20px;
+    
+}
