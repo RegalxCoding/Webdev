@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;   
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    color: rgba(8, 246, 238, 0.829);
+    background-image: url(.//PHOTOS/background3.jpeg);
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.outer{
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-right: 270px;
+    height: 500px;
+}
+.photo{
+    border-radius: 30px;
+    margin: 15px;
+    width: 40%;
+}
+
+.detail{
+    margin: 15px;
+    padding:5px;
+    width: 60%;
+    background-color: rgb(167, 167, 155);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.name{
+    width: 60%;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.ruppess{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    width: 20%;
+    padding: 10px;
+}
+.add{
+    width: 20%;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(85, 232, 249),pink);
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 30px;
+   padding: 20px;
+    font-size: 21px;
+}
+.pro_detail{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: aliceblue;
+
+    font-size: 30px;
+    width: 50%;
+    padding: 10px;
+   
+    font-size: 24px;
+}
+.pro_detail h5{
+    color: rgb(153, 244, 128);
+}
+.photo img{
+    border-radius: 30px;
+    object-fit: fill;
+}
+

@@ -1,0 +1,11 @@
+h1{
+    color: yellow;
+    background-color: pink;
+}
+h2:hover{
+    color: gray;
+    background-color: blueviolet;
+}
+h3{
+    font-size: 60px;
+}

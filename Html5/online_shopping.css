@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(34, 34, 33);
+
+}
+.navbar{
+    
+    display: flex;
+    justify-content: center;
+    color: rgba(8, 246, 238, 0.829);
+    background-image: url(.//PHOTOS/background3.jpeg);
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+
+    
+}
+.t_product h2{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Oi", serif;
+    font-weight: 10;
+    font-style: normal;
+    
+}
+.outer{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.photos{
+    width: 280px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px ;
+    color: rgb(100, 104, 107);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.photos img{
+    border-radius: 20px;
+}
+.price{
+    text-align:left;
+    font-size: 20px;
+    color: aliceblue;
+}
+.text{
+    
+    color:rgb(227, 245, 94);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
